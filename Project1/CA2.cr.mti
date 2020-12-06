@@ -1,0 +1,15 @@
+{D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/8BitComparator.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/8BitComparator.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BCSBasedComparator
+
+Top level modules:
+	BCSBasedComparator
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/GateLevelBcs.v} {1 {vlog -work work -stats=none {D:\Files\University\Term 3\Madar Manteghi\Projects\Poroject1\GateLevelBcs.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module GateLevelBCS
+
+Top level modules:
+	GateLevelBCS
+
+} {} {}}

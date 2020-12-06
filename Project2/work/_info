@@ -1,0 +1,479 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1
+vBCS_ComparatorBitByBitTB
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1604435984
+!i10b 1
+!s100 6MglBdBdoj[=1z2D^F]0G3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ig>5L2?[RN<E=DhBXAdc6@3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/Files/University/Term 3/Madar Manteghi/Projects/Project2
+w1604425684
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/BCS_ComparatorBitByBitTB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project2/BCS_ComparatorBitByBitTB.sv
+!i122 193
+Z5 L0 3 204
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1604435984.000000
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/BCS_ComparatorBitByBitTB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/BCS_ComparatorBitByBitTB.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+n@b@c@s_@comparator@bit@by@bit@t@b
+vBCSBasedComparator
+R0
+Z10 !s110 1604435983
+!i10b 1
+!s100 0j`BG[m41L>hb`EH6iS9]0
+R2
+I2mzc9DQ5UYXz6jY6b_bLT2
+R3
+S1
+R4
+Z11 w1604414747
+Z12 8D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/8BitComparator.sv
+Z13 FD:/Files/University/Term 3/Madar Manteghi/Projects/Project2/8BitComparator.sv
+!i122 185
+L0 3 14
+R6
+r1
+!s85 0
+31
+Z14 !s108 1604435983.000000
+Z15 !s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/8BitComparator.sv|
+Z16 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/8BitComparator.sv|
+!i113 1
+R8
+R9
+n@b@c@s@based@comparator
+vBCSComparatorTB
+R0
+R10
+!i10b 1
+!s100 hdJgP23>;eifK?VgbND_m0
+R2
+IoO[5V@lkiLQ9o;993Ize_2
+R3
+S1
+R4
+w1604362737
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/8BitBCSComparatorTB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project2/8BitBCSComparatorTB.sv
+!i122 187
+Z17 L0 3 117
+R6
+r1
+!s85 0
+31
+R14
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/8BitBCSComparatorTB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/8BitBCSComparatorTB.sv|
+!i113 1
+R8
+R9
+n@b@c@s@comparator@t@b
+vBitByBitTB
+R0
+!s110 1604424870
+!i10b 1
+!s100 <NBT^B`EVShT?zERRR4PC0
+R2
+IKV7GGl9TFEZ^[nI`0F^SR0
+R3
+S1
+R4
+w1604424860
+Z18 8D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/BitByBit.sv
+Z19 FD:/Files/University/Term 3/Madar Manteghi/Projects/Project2/BitByBit.sv
+!i122 151
+R5
+R6
+r1
+!s85 0
+31
+!s108 1604424870.000000
+Z20 !s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/BitByBit.sv|
+Z21 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/BitByBit.sv|
+!i113 1
+R8
+R9
+n@bit@by@bit@t@b
+vCompare
+R0
+!s110 1604428578
+!i10b 1
+!s100 1HN_NVka53[X;CL5O[mF:2
+R2
+ImmI;5[YzG7DMh0VigdE=:0
+R3
+S1
+R4
+w1604428268
+R18
+R19
+!i122 172
+Z22 L0 3 54
+R6
+r1
+!s85 0
+31
+!s108 1604428578.000000
+R20
+R21
+!i113 1
+R8
+R9
+n@compare
+vCompareTB
+R0
+R1
+!i10b 1
+!s100 ^oi>NDZm<:V2id4A>?Jkc0
+R2
+Id@[HB1[dfG>F5Go;[Z?A93
+R3
+S1
+R4
+w1604429974
+R18
+R19
+!i122 192
+R22
+R6
+r1
+!s85 0
+31
+R7
+R20
+R21
+!i113 1
+R8
+R9
+n@compare@t@b
+vGateLevelBCS
+R0
+R10
+!i10b 1
+!s100 o^WfNQCkP;751J6;PF@Id3
+R2
+I>e1;TJ7DYHX7H0Yb4_L]K0
+R3
+S1
+R4
+w1604361609
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/GateLevelBCS.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project2/GateLevelBCS.sv
+!i122 188
+L0 3 10
+R6
+r1
+!s85 0
+31
+R14
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/GateLevelBCS.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/GateLevelBCS.sv|
+!i113 1
+R8
+R9
+n@gate@level@b@c@s
+vInverter
+R0
+R10
+!i10b 1
+!s100 ;TWHb??GGUN[C=aU;d5683
+R2
+IO8>nBL6PEnfBVF@nnC32<3
+R3
+S1
+R4
+Z23 w1604361265
+Z24 8D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/Gates.sv
+Z25 FD:/Files/University/Term 3/Madar Manteghi/Projects/Project2/Gates.sv
+!i122 189
+L0 11 3
+R6
+r1
+!s85 0
+31
+R14
+Z26 !s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/Gates.sv|
+Z27 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/Gates.sv|
+!i113 1
+R8
+R9
+n@inverter
+vNand
+R0
+R10
+!i10b 1
+!s100 8lQ`VRde4MTOI?WG@mV<00
+R2
+IJfOVhYc`O^;QT:gDKXCG73
+R3
+S1
+R4
+R23
+R24
+R25
+!i122 189
+L0 3 3
+R6
+r1
+!s85 0
+31
+R14
+R26
+R27
+!i113 1
+R8
+R9
+n@nand
+vNand3
+R0
+R10
+!i10b 1
+!s100 >Z21[eaozUk9LP?C=>5do1
+R2
+IL0JjmJ0K<7bFW@J`<HB[c1
+R3
+S1
+R4
+R23
+R24
+R25
+!i122 189
+L0 19 3
+R6
+r1
+!s85 0
+31
+R14
+R26
+R27
+!i113 1
+R8
+R9
+n@nand3
+vNor
+R0
+R10
+!i10b 1
+!s100 EE2_88W3h<K>@4CDJlMID2
+R2
+I^DAK1eR7@d14hPY0FP4JI3
+R3
+S1
+R4
+R23
+R24
+R25
+!i122 189
+L0 15 3
+R6
+r1
+!s85 0
+31
+R14
+R26
+R27
+!i113 1
+R8
+R9
+n@nor
+vTCS
+R0
+R10
+!i10b 1
+!s100 ajSKI6g8I1MM^cR8g94bW0
+R2
+I?SBkHmKClgA=XIz7:k92L0
+R3
+S1
+R4
+w1604400413
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/TCS.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project2/TCS.sv
+!i122 186
+L0 3 23
+R6
+r1
+!s85 0
+31
+R14
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/TCS.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/TCS.sv|
+!i113 1
+R8
+R9
+n@t@c@s
+vTCS_ComparatorBitByBitTB
+R0
+!s110 1604435985
+!i10b 1
+!s100 _L_z_37<MgYB424kSP6=@2
+R2
+IU>21kcSDkIn5n:bo2WZ;g0
+R3
+S1
+R4
+w1604425792
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/TCS_CompratorBitByBitTB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project2/TCS_CompratorBitByBitTB.sv
+!i122 194
+R5
+R6
+r1
+!s85 0
+31
+!s108 1604435985.000000
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/TCS_CompratorBitByBitTB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/TCS_CompratorBitByBitTB.sv|
+!i113 1
+R8
+R9
+n@t@c@s_@comparator@bit@by@bit@t@b
+vTCS_TB
+R0
+R10
+!i10b 1
+!s100 6Q`mH3kBzOKC[jT?I]HGK3
+R2
+ISNDb]A8hG5ZoXO15O_^>]3
+R3
+S1
+R4
+w1604399903
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/TCS_TB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project2/TCS_TB.sv
+!i122 190
+L0 3 55
+R6
+r1
+!s85 0
+31
+R14
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/TCS_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/TCS_TB.sv|
+!i113 1
+R8
+R9
+n@t@c@s_@t@b
+vTCSBasedComparator
+R0
+R10
+!i10b 1
+!s100 l[>ZTlZ2Oz<U:UA0QZ^AZ3
+R2
+I3Ll?bQdaJhYf=V^29If0?3
+R3
+S1
+R4
+R11
+R12
+R13
+!i122 185
+L0 18 15
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R8
+R9
+n@t@c@s@based@comparator
+vTCSComparatorTB
+R0
+R1
+!i10b 1
+!s100 TI2m>1YQd8J93IK?I;H8Z1
+R2
+I80i;O]c:gG6R`1]]IbAe^1
+R3
+S1
+R4
+w1604424762
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/8BitTCSComparatorTB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project2/8BitTCSComparatorTB.sv
+!i122 191
+R17
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/8BitTCSComparatorTB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project2/8BitTCSComparatorTB.sv|
+!i113 1
+R8
+R9
+n@t@c@s@comparator@t@b
+vXnor
+R0
+R10
+!i10b 1
+!s100 8^MY^GIM3K?m`blODezl]2
+R2
+IVTn3JUB5m_oWGOISEH`MQ2
+R3
+S1
+R4
+R23
+R24
+R25
+!i122 189
+L0 23 3
+R6
+r1
+!s85 0
+31
+R14
+R26
+R27
+!i113 1
+R8
+R9
+n@xnor
+vXor
+R0
+R10
+!i10b 1
+!s100 amT1JRP:X@9TZZRnhSB<P3
+R2
+IXdFcgW?1F`TA5kmj>d4EM0
+R3
+S1
+R4
+R23
+R24
+R25
+!i122 189
+L0 7 3
+R6
+r1
+!s85 0
+31
+R14
+R26
+R27
+!i113 1
+R8
+R9
+n@xor

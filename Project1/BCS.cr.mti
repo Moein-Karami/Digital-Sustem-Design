@@ -1,0 +1,102 @@
+{D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyPrimitives.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyPrimitives.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module XorPrimitive
+-- Compiling module InverterAssign
+-- Compiling module NorPrimitive
+-- Compiling module NandPrimitive
+-- Compiling module Nand3Primitive
+
+Top level modules:
+	XorPrimitive
+	InverterAssign
+	NorPrimitive
+	NandPrimitive
+	Nand3Primitive
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyNorTB.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyNorTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MyNorTB
+
+Top level modules:
+	MyNorTB
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/GateVsTransistorTB.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/GateVsTransistorTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module GateVsTransistorBCSTB
+
+Top level modules:
+	GateVsTransistorBCSTB
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyGates.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyGates.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MyInverter
+-- Compiling module MyXor
+-- Compiling module MyNor
+-- Compiling module MyNand
+-- Compiling module My3Nand
+
+Top level modules:
+	MyXor
+	MyNor
+	MyNand
+	My3Nand
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyInverterTB.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyInverterTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MyInverterTB
+
+Top level modules:
+	MyInverterTB
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyCircuits.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyCircuits.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TransistorLevelBCS
+-- Compiling module GateLevelBCS
+
+Top level modules:
+	TransistorLevelBCS
+	GateLevelBCS
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyNandTB.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyNandTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MyNandTB
+
+Top level modules:
+	MyNandTB
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyXorTB.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/MyXorTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MyXorTB
+
+Top level modules:
+	MyXorTB
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/J1BarTB.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/J1BarTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module J1BarTB
+
+Top level modules:
+	J1BarTB
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/K1BarTB.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/K1BarTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module K1BarTB
+
+Top level modules:
+	K1BarTB
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/TransistorLevelBCSTB.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/TransistorLevelBCSTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TransistorLevelBCSTB
+
+Top level modules:
+	TransistorLevelBCSTB
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/My3NandTB.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Poroject1/My3NandTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module My3NandTB
+
+Top level modules:
+	My3NandTB
+
+} {} {}}

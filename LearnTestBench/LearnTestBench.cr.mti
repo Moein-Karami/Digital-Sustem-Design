@@ -1,0 +1,9 @@
+{D:/Files/University/Term 3/Madar Manteghi/Projects/LearnTestBench/Practice.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/LearnTestBench/Practice.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sillyfunction
+-- Compiling module testbench3
+
+Top level modules:
+	testbench3
+
+} {} {}}

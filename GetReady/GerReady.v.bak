@@ -1,0 +1,8 @@
+`timescale 1ns/1ns
+module MyNand (input i1, i2, output o1);
+	supply1 Vdd;
+	supply0 Gnd;
+	pmos #(4,5,6) T1(i1, Vdd, o1), T2(i2, Vdd, o1);
+	wire w;
+	nmos #(3,4,5) T3(i1, Gnd, w), T4(w, Gnd, o1);
+endmodule 

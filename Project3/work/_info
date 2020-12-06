@@ -1,0 +1,633 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files/University/Term 3/Madar Manteghi/Projects/Project2
+vAbsDiff
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1606057304
+!i10b 1
+!s100 ^zFYBJm6IM_>Nm9A@Hki^2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<oCfiY1T>XQT;NOCaRj2Y2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/Files/University/Term 3/Madar Manteghi/Projects/Project3
+w1606044277
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/AbsDiff.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/AbsDiff.sv
+!i122 905
+L0 3 45
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1606057304.000000
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/AbsDiff.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/AbsDiff.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+n@abs@diff
+vAbsDiff_TB
+R0
+Z9 !s110 1606057305
+!i10b 1
+!s100 :1NeoG6ZocD4I0P4AC2Cl3
+R2
+InE6Yfeb:V56`=WHSaZZlc0
+R3
+S1
+R4
+w1606044413
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/AbsDiff_TB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/AbsDiff_TB.sv
+!i122 906
+L0 3 80
+R5
+r1
+!s85 0
+31
+Z10 !s108 1606057305.000000
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/AbsDiff_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/AbsDiff_TB.sv|
+!i113 1
+R7
+R8
+n@abs@diff_@t@b
+vFinal_TB
+R0
+!s110 1606057306
+!i10b 1
+!s100 c[<XP1]=Jk>2dlaP0:XVM3
+R2
+IHX0O4nE=40i96[ESI7M`m3
+R3
+S1
+R4
+w1606048159
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/14_TB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/14_TB.sv
+!i122 909
+L0 3 113
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/14_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/14_TB.sv|
+!i113 1
+R7
+R8
+n@final_@t@b
+vLessDistance
+R0
+R9
+!i10b 1
+!s100 3^@>Jh4JEMceUm=Ym2JJ93
+R2
+IFN_e:UV??FfUGdG5?U41I0
+R3
+S1
+R4
+w1605976751
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/LessDistance.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/LessDistance.sv
+!i122 907
+L0 3 16
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/LessDistance.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/LessDistance.sv|
+!i113 1
+R7
+R8
+n@less@distance
+vLessDistance_TB
+R0
+R9
+!i10b 1
+!s100 K_RARa<NN:3lWR8SRZKAm2
+R2
+InaWj9DKkjNke7mzBnfQ3L2
+R3
+S1
+R4
+w1606057298
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/LessDistance_TB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/LessDistance_TB.sv
+!i122 908
+L0 3 81
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/LessDistance_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/LessDistance_TB.sv|
+!i113 1
+R7
+R8
+n@less@distance_@t@b
+vMUX_CMOS
+R0
+Z11 !s110 1605963299
+!i10b 1
+!s100 a48bN59@L2bk@eDG=HU2E0
+R2
+IWcjNT1XQP_@RZ0LR;lC;m2
+R3
+S1
+R4
+Z12 w1605903596
+Z13 8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/MUX.sv
+Z14 FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/MUX.sv
+!i122 400
+Z15 L0 7 3
+R5
+r1
+!s85 0
+31
+Z16 !s108 1605963299.000000
+Z17 !s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/MUX.sv|
+Z18 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/MUX.sv|
+!i113 1
+R7
+R8
+n@m@u@x_@c@m@o@s
+vMUX_CMOS_16
+R0
+Z19 !s110 1606057302
+!i10b 1
+!s100 XoV[7C3J]g^>0G6b]E2aj0
+R2
+I8_mJXCAM3?ET9Wl0z8N^S0
+R3
+S1
+R4
+Z20 w1605959828
+Z21 8D:\Files\University\Term 3\Madar Manteghi\Projects\Project3\MUX.sv
+Z22 FD:\Files\University\Term 3\Madar Manteghi\Projects\Project3\MUX.sv
+!i122 898
+L0 19 3
+R5
+r1
+!s85 0
+31
+Z23 !s108 1606057302.000000
+Z24 !s107 D:\Files\University\Term 3\Madar Manteghi\Projects\Project3\MUX.sv|
+Z25 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Files\University\Term 3\Madar Manteghi\Projects\Project3\MUX.sv|
+!i113 1
+R7
+R8
+n@m@u@x_@c@m@o@s_16
+vMUX_CMOS_2
+R0
+R19
+!i10b 1
+!s100 cKeW4a[cXSPDNRAMC^9Go2
+R2
+ImA7fzHeDEJ2S?3:Q4RUk22
+R3
+S1
+R4
+R20
+R21
+R22
+!i122 898
+L0 15 3
+R5
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R7
+R8
+n@m@u@x_@c@m@o@s_2
+vMUX_CMOS_4
+R0
+R19
+!i10b 1
+!s100 7Mdc@K8o_WUNYo9=5H]Tc0
+R2
+I5O`B;?n;ScfzZ3a8mU_dS3
+R3
+S1
+R4
+R20
+R21
+R22
+!i122 898
+L0 23 3
+R5
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R7
+R8
+n@m@u@x_@c@m@o@s_4
+vMUX_using_passtransistor
+R0
+R11
+!i10b 1
+!s100 _O7VS7ATY<Rbboo>SDSV31
+R2
+I9X4KYHLaR3zVEUW=o<_iC2
+R3
+S1
+R4
+R12
+R13
+R14
+!i122 400
+Z26 L0 3 3
+R5
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R7
+R8
+n@m@u@x_using_passtransistor
+vMUX_using_passtransistor_16
+R0
+R19
+!i10b 1
+!s100 k1C<0`jPCEFBBbSSzSA>G3
+R2
+I@>2bZPA]6iTHXW>JVDc0@0
+R3
+S1
+R4
+R20
+R21
+R22
+!i122 898
+L0 11 3
+R5
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R7
+R8
+n@m@u@x_using_passtransistor_16
+vMUX_using_passtransistor_2
+R0
+R19
+!i10b 1
+!s100 ]hTC20AeVJRaI7`Q3NF:E3
+R2
+InNAW[`2UShnQ3Lcz>Fz=E2
+R3
+S1
+R4
+R20
+R21
+R22
+!i122 898
+R26
+R5
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R7
+R8
+n@m@u@x_using_passtransistor_2
+vMUX_using_passtransistor_4
+R0
+R19
+!i10b 1
+!s100 ]UaAKAWl<dCdbOSYGI5h_3
+R2
+IlP<j:;kzHYD<Clj4FMUnB0
+R3
+S1
+R4
+R20
+R21
+R22
+!i122 898
+R15
+R5
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R7
+R8
+n@m@u@x_using_passtransistor_4
+vN8CS_TB
+R0
+R19
+!i10b 1
+!s100 _4R^?I^n`Tf;a93DzC:5I0
+R2
+I7:c[N=Ho@f7@<ej@O4>4a0
+R3
+S1
+R4
+w1605836634
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/N8CS_TB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/N8CS_TB.sv
+!i122 897
+L0 3 119
+R5
+r1
+!s85 0
+31
+R23
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/N8CS_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/N8CS_TB.sv|
+!i113 1
+R7
+R8
+n@n8@c@s_@t@b
+vN8MA_TB
+R0
+Z27 !s110 1606057303
+!i10b 1
+!s100 2?nME;bV[IaPl^@F_8P4W1
+R2
+Ii=690RcDN:M[EP^GEk`Q02
+R3
+S1
+R4
+w1605910873
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/N8MA_TB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/N8MA_TB.sv
+!i122 901
+L0 3 108
+R5
+r1
+!s85 0
+31
+Z28 !s108 1606057303.000000
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/N8MA_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/N8MA_TB.sv|
+!i113 1
+R7
+R8
+n@n8@m@a_@t@b
+vN8MI_TB
+R0
+R1
+!i10b 1
+!s100 :73kd0fa5k_34XbkRoUc<3
+R2
+IHlU=E^JFk2@?lE<451C0e3
+R3
+S1
+R4
+w1605964873
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/N8MI_TB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/N8MI_TB.sv
+!i122 904
+L0 3 107
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/N8MI_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/N8MI_TB.sv|
+!i113 1
+R7
+R8
+n@n8@m@i_@t@b
+vNCS_using_generate_TCS
+R0
+Z29 !s110 1606057301
+!i10b 1
+!s100 _?9o2L4_h?[[ZM0gd8OUF1
+R2
+IDEhoD0iVJ?ZRL[eCnomj83
+R3
+S1
+R4
+w1605834189
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NCS_using_generate_TCS.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NCS_using_generate_TCS.sv
+!i122 896
+L0 3 18
+R5
+r1
+!s85 0
+31
+Z30 !s108 1606057301.000000
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NCS_using_generate_TCS.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NCS_using_generate_TCS.sv|
+!i113 1
+R7
+R8
+n@n@c@s_using_generate_@t@c@s
+vNMA_using_TMA
+R0
+R27
+!i10b 1
+!s100 M15cWm?jd[b`P``g:VgGb1
+R2
+ILa_81PVaYdTk^d[dlE]N?1
+R3
+S1
+R4
+w1605908869
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMA_using_TMA.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMA_using_TMA.sv
+!i122 900
+L0 3 14
+R5
+r1
+!s85 0
+31
+R28
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMA_using_TMA.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMA_using_TMA.sv|
+!i113 1
+R7
+R8
+n@n@m@a_using_@t@m@a
+vNMI_using_TMI
+R0
+R1
+!i10b 1
+!s100 WSmXJBUa:I25eX2Hc]k5g2
+R2
+I48Q]T7h[lbO?5WK>P2>]g3
+R3
+S1
+R4
+w1605965808
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMI_using_TMI.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMI_using_TMI.sv
+!i122 903
+L0 3 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMI_using_TMI.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMI_using_TMI.sv|
+!i113 1
+R7
+R8
+n@n@m@i_using_@t@m@i
+vreverse_bits
+R0
+!s110 1605967678
+!i10b 1
+!s100 Lo0jo@IUA_5;LB2cgKC:Q3
+R2
+Io>?Pa4;[[5ZC[oDzWFP<b2
+R3
+S1
+R4
+w1605967670
+8D:\Files\University\Term 3\Madar Manteghi\Projects\Project3\AbsDiff.sv
+FD:\Files\University\Term 3\Madar Manteghi\Projects\Project3\AbsDiff.sv
+!i122 633
+Z31 L0 3 7
+R5
+r1
+!s85 0
+31
+!s108 1605967678.000000
+!s107 D:\Files\University\Term 3\Madar Manteghi\Projects\Project3\AbsDiff.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Files\University\Term 3\Madar Manteghi\Projects\Project3\AbsDiff.sv|
+!i113 1
+R7
+R8
+vtb
+R0
+!s110 1607033049
+!i10b 1
+!s100 Xbk^f1dh=JDO4kPooGnJ71
+R2
+I6?h3ooU8_`LW75codgc981
+R3
+S1
+R4
+w1607033044
+8D:\Files\University\Term 3\Madar Manteghi\Projects\Project3\WarmUp.sv
+FD:\Files\University\Term 3\Madar Manteghi\Projects\Project3\WarmUp.sv
+!i122 910
+Z32 L0 3 12
+R5
+r1
+!s85 0
+31
+!s108 1607033048.000000
+!s107 D:\Files\University\Term 3\Madar Manteghi\Projects\Project3\WarmUp.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Files\University\Term 3\Madar Manteghi\Projects\Project3\WarmUp.sv|
+!i113 1
+R7
+R8
+vTCS_using_always
+R0
+R29
+!i10b 1
+!s100 d7gZl5Z]ZDdUzz2LoEVRV2
+R2
+IWDCo5:aZJoX:KcKW]H4Z73
+R3
+S1
+R4
+w1605967052
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/TCS_using_always.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/TCS_using_always.sv
+!i122 895
+L0 3 105
+R5
+r1
+!s85 0
+31
+R30
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/TCS_using_always.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/TCS_using_always.sv|
+!i113 1
+R7
+R8
+n@t@c@s_using_always
+vTMA_using_MUX
+R0
+R19
+!i10b 1
+!s100 A`V;j80g=`07XbWgIDBHA1
+R2
+ILDfd3J>Em2d@FMeOjIaXn1
+R3
+S1
+R4
+w1605967422
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/TMA_using_MUX.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/TMA_using_MUX.sv
+!i122 899
+R32
+R5
+r1
+!s85 0
+31
+R23
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/TMA_using_MUX.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/TMA_using_MUX.sv|
+!i113 1
+R7
+R8
+n@t@m@a_using_@m@u@x
+vTMI_using_MUX
+R0
+R27
+!i10b 1
+!s100 Q9Ec@GZaSmb?zGfM6P1PY1
+R2
+Ik635c[hXOU<KeEA[`UcDQ2
+R3
+S1
+R4
+w1605965695
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/TMI_using_MUX.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project3/TMI_using_MUX.sv
+!i122 902
+R31
+R5
+r1
+!s85 0
+31
+R28
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/TMI_using_MUX.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/TMI_using_MUX.sv|
+!i113 1
+R7
+R8
+n@t@m@i_using_@m@u@x

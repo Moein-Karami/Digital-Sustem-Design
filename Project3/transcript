@@ -1,0 +1,19 @@
+# Compile of WarmUp.sv failed with 1 errors.
+# Compile of WarmUp.sv was successful.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 01:34:29 on Dec 04,2020
+# Loading sv_std.std
+# Loading work.tb
+add wave -position end sim:/tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: C  Hostname: DESKTOP-N4QJPKJ  ProcessID: 4376
+#           Attempting to use alternate WLF file "./wlfty5f0b1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfty5f0b1
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/WarmUp.sv(11)
+#    Time: 1 us  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/WarmUp.sv line 11
+# End time: 02:48:31 on Dec 04,2020, Elapsed time: 1:14:02
+# Errors: 0, Warnings: 6

@@ -92,19 +92,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	N8MA_TB
 
-} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/14_TB.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/14_TB.sv}
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/LessDistance.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/LessDistance.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Final_TB
+-- Compiling module LessDistance
 
 Top level modules:
-	Final_TB
-
-} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMA_using_TMA.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMA_using_TMA.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module NMA_using_TMA
-
-Top level modules:
-	NMA_using_TMA
+	LessDistance
 
 } {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMI_using_TMI.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMI_using_TMI.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -113,11 +106,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	NMI_using_TMI
 
-} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/LessDistance.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/LessDistance.sv}
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMA_using_TMA.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/NMA_using_TMA.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module LessDistance
+-- Compiling module NMA_using_TMA
 
 Top level modules:
-	LessDistance
+	NMA_using_TMA
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/14_TB.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project3/14_TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Final_TB
+
+Top level modules:
+	Final_TB
 
 } {} {}}

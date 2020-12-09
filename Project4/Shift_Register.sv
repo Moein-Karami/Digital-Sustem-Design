@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-module Shigt_Register_P5(input sIn, clk, rst, output sOut);
+module Shift_Register_P5(input sIn, clk, rst, output sOut);
 	wire [8 : 0]Q;
 	
 	assign Q[8] = sIn;

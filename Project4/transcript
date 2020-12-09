@@ -174,3 +174,93 @@ quit -sim
 # Compile of Shift_Register.sv failed with 1 errors.
 # Compile of Shift_Register.sv failed with 1 errors.
 # Compile of Shift_Register.sv was successful.
+# Compile of D-latch.sv was successful.
+# Compile of Dlatch_TB.sv was successful.
+# Compile of Shift_Register.sv was successful.
+# Compile of Shift_Register_TB.sv failed with 2 errors.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of Shift_Register_TB.sv failed with 1 errors.
+# Compile of Shift_Register_TB.sv was successful.
+vsim -gui work.Shift_Register_P6
+# vsim -gui work.Shift_Register_P6 
+# Start time: 17:23:05 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.Shift_Register_P6
+# Loading work.Shift_Register_P5
+# Loading work.Clocked_Dlatch_With_Delay_Reset_P4
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[7]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[6]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[5]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[4]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[3]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[2]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[1]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[0]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+add wave -position end sim:/Shift_Register_P6/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register_TB.sv(20)
+#    Time: 10 us  Iteration: 0  Instance: /Shift_Register_P6
+# Break in Module Shift_Register_P6 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register_TB.sv line 20
+quit -sim
+# End time: 17:24:29 on Dec 09,2020, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 29
+# Compile of D-latch.sv was successful.
+# Compile of Dlatch_TB.sv was successful.
+# Compile of Shift_Register.sv was successful.
+# Compile of Shift_Register_TB.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.Shift_Register_P6
+# vsim -gui work.Shift_Register_P6 
+# Start time: 17:24:53 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.Shift_Register_P6
+# Loading work.Shift_Register_P5
+# Loading work.Clocked_Dlatch_With_Delay_Reset_P4
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[7]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[6]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[5]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[4]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[3]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[2]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[1]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[0]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+add wave -position end sim:/Shift_Register_P6/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register_TB.sv(21)
+#    Time: 10 us  Iteration: 0  Instance: /Shift_Register_P6
+# Break in Module Shift_Register_P6 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register_TB.sv line 21
+quit -sim
+# End time: 17:31:40 on Dec 09,2020, Elapsed time: 0:06:47
+# Errors: 0, Warnings: 18

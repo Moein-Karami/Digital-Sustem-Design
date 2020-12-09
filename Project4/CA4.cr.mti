@@ -1,10 +1,8 @@
-{D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D-latch.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D-latch.sv}
+{D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Clocked_Dlatch_P1
--- Compiling module Clocked_Dlatch_With_Delay_P2
+-- Compiling module Clocked_Dlatch_With_Delay_TB_P3
 
 Top level modules:
-	Clocked_Dlatch_P1
-	Clocked_Dlatch_With_Delay_P2
+	Clocked_Dlatch_With_Delay_TB_P3
 
 } {} {}}

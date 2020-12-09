@@ -7,13 +7,13 @@ module Shift_Register_P6();
 	Shift_Register_P5 shift_register(.sIn(sIn), .clk(clk), .rst(rst), .sOut(sOut));
 
 	always #600 clk = ~clk;
-	always #400 sIn = $random();
+	always #1400 sIn = $random();
 
 	initial begin
 		clk = 0;
 		sIn = $random();
 		rst = 0;
-		#4000;
+		#10000;
 		rst = 1;
 		#2000;
 		rst = 0;

@@ -1,9 +1,35 @@
-{D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv}
+{D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register_TB.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register_TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Shift_Register_P6
+
+Top level modules:
+	Shift_Register_P6
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Clocked_Dlatch_With_Delay_TB_P3
 
 Top level modules:
 	Clocked_Dlatch_With_Delay_TB_P3
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D-latch.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D-latch.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Clocked_Dlatch_P1
+-- Compiling module Clocked_Dlatch_With_Delay_P2
+-- Compiling module Clocked_Dlatch_With_Delay_Reset_P4
+
+Top level modules:
+	Clocked_Dlatch_P1
+	Clocked_Dlatch_With_Delay_P2
+	Clocked_Dlatch_With_Delay_Reset_P4
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D_Flip_Flop.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D_Flip_Flop.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module D_Flip_Flop_Reset_P7
+-- Compiling module D_Flip_Flop_TB_P7
+
+Top level modules:
+	D_Flip_Flop_TB_P7
 
 } {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

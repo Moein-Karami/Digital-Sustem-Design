@@ -7,8 +7,8 @@ module Clocked_Dlatch_With_Delay_TB_P3();
 	logic [20]know;
 
 	always #1 know = know + 1;
-	always #60 if (know < 1000) D = ~D;
-	always #200 if (know < 1000) clk = ~clk;
+	always #460 if (know < 4000) D = ~D;
+	always #200 if (know < 4000) clk = ~clk;
 
 	initial begin
 		know = 0;
@@ -17,16 +17,16 @@ module Clocked_Dlatch_With_Delay_TB_P3();
 		#5;
 		clk = 1'b0;
 		D = 1'b0;
-		#1000;
+		#4000;
 		D = 1'b1;
 		clk = 1'b1;
-		#60;
+		#460;
 		clk = 1'b0;
 		D = 0'b0;
-		#60;
+		#460;
 		D = 1'b1;
 		clk = 0'b0;
-		#60;
+		#460;
 		$stop;
 	end
 endmodule

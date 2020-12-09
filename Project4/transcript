@@ -319,3 +319,200 @@ run -all
 quit -sim
 # End time: 20:55:52 on Dec 09,2020, Elapsed time: 0:01:46
 # Errors: 0, Warnings: 20
+# Compile of D-latch.sv was successful.
+# Compile of Dlatch_TB.sv was successful.
+# Compile of Shift_Register.sv was successful.
+# Compile of Shift_Register_TB.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.Clocked_Dlatch_With_Delay_TB_P3
+# vsim -gui work.Clocked_Dlatch_With_Delay_TB_P3 
+# Start time: 21:13:12 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.Clocked_Dlatch_With_Delay_TB_P3
+# Loading work.Clocked_Dlatch_With_Delay_P2
+add wave -position end sim:/Clocked_Dlatch_With_Delay_TB_P3/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv(30)
+#    Time: 4185 ns  Iteration: 0  Instance: /Clocked_Dlatch_With_Delay_TB_P3
+# Break in Module Clocked_Dlatch_With_Delay_TB_P3 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv line 30
+quit -sim
+# Compile of D-latch.sv was successful.
+# Compile of Dlatch_TB.sv was successful.
+# Compile of Shift_Register.sv was successful.
+# Compile of Shift_Register_TB.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.Clocked_Dlatch_With_Delay_TB_P3
+# End time: 21:14:38 on Dec 09,2020, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 3
+# vsim -gui work.Clocked_Dlatch_With_Delay_TB_P3 
+# Start time: 21:14:38 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.Clocked_Dlatch_With_Delay_TB_P3
+# Loading work.Clocked_Dlatch_With_Delay_P2
+add wave -position end sim:/Clocked_Dlatch_With_Delay_TB_P3/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv(30)
+#    Time: 4185 ns  Iteration: 0  Instance: /Clocked_Dlatch_With_Delay_TB_P3
+# Break in Module Clocked_Dlatch_With_Delay_TB_P3 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv line 30
+quit -sim
+# Compile of D-latch.sv was successful.
+# Compile of Dlatch_TB.sv was successful.
+# Compile of Shift_Register.sv was successful.
+# Compile of Shift_Register_TB.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# End time: 21:19:13 on Dec 09,2020, Elapsed time: 0:04:35
+# Errors: 0, Warnings: 2
+vsim -gui work.Clocked_Dlatch_With_Delay_TB_P3
+# vsim -gui work.Clocked_Dlatch_With_Delay_TB_P3 
+# Start time: 21:19:20 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.Clocked_Dlatch_With_Delay_TB_P3
+# Loading work.Clocked_Dlatch_With_Delay_P2
+add wave -position end sim:/Clocked_Dlatch_With_Delay_TB_P3/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv(30)
+#    Time: 5385 ns  Iteration: 0  Instance: /Clocked_Dlatch_With_Delay_TB_P3
+# Break in Module Clocked_Dlatch_With_Delay_TB_P3 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv line 30
+quit -sim
+vsim -gui work.Shift_Register_P6
+# End time: 21:20:59 on Dec 09,2020, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 1
+# vsim -gui work.Shift_Register_P6 
+# Start time: 21:21:00 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.Shift_Register_P6
+# Loading work.Shift_Register_P5
+# Loading work.Clocked_Dlatch_With_Delay_Reset_P4
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[7]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[6]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[5]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[4]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[3]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[2]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[1]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DD'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Shift_Register_P6/shift_register/genblk1[0]/DD File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv Line: 12
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv(12): [TFMPC] - Missing connection for port 'Q_bar'.
+add wave -position end sim:/Shift_Register_P6/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register_TB.sv(21)
+#    Time: 16 us  Iteration: 0  Instance: /Shift_Register_P6
+# Break in Module Shift_Register_P6 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register_TB.sv line 21
+quit -sim
+# End time: 21:21:59 on Dec 09,2020, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 17
+# Compile of D_Flip_Flop.sv failed with 1 errors.
+# Compile of D_Flip_Flop.sv failed with 1 errors.
+# Compile of D_Flip_Flop.sv was successful.
+vsim -gui work.D_Flip_Flop_TB_P7
+# vsim -gui work.D_Flip_Flop_TB_P7 
+# Start time: 21:37:45 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.D_Flip_Flop_TB_P7
+# Loading work.D_Flip_Flop_Reset_P7
+# Loading work.Clocked_Dlatch_With_Delay_P2
+add wave -position end sim:/D_Flip_Flop_TB_P7/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D_Flip_Flop.sv(31)
+#    Time: 10 us  Iteration: 0  Instance: /D_Flip_Flop_TB_P7
+# Break in Module D_Flip_Flop_TB_P7 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D_Flip_Flop.sv line 31
+quit -sim
+# Compile of D-latch.sv was successful.
+# Compile of Dlatch_TB.sv was successful.
+# Compile of Shift_Register.sv was successful.
+# Compile of Shift_Register_TB.sv was successful.
+# Compile of D_Flip_Flop.sv was successful.
+# 5 compiles, 0 failed with no errors.
+# End time: 22:03:29 on Dec 09,2020, Elapsed time: 0:25:44
+# Errors: 0, Warnings: 6
+vsim -gui work.D_Flip_Flop_TB_P7
+# vsim -gui work.D_Flip_Flop_TB_P7 
+# Start time: 22:03:45 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.D_Flip_Flop_TB_P7
+# Loading work.D_Flip_Flop_Reset_P7
+# Loading work.Clocked_Dlatch_With_Delay_P2
+add wave -position end sim:/D_Flip_Flop_TB_P7/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D_Flip_Flop.sv(31)
+#    Time: 10 us  Iteration: 0  Instance: /D_Flip_Flop_TB_P7
+# Break in Module D_Flip_Flop_TB_P7 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D_Flip_Flop.sv line 31
+quit -sim
+# Compile of D-latch.sv was successful.
+# Compile of Dlatch_TB.sv was successful.
+# Compile of Shift_Register.sv was successful.
+# Compile of Shift_Register_TB.sv was successful.
+# Compile of D_Flip_Flop.sv was successful.
+# 5 compiles, 0 failed with no errors.
+# End time: 22:08:46 on Dec 09,2020, Elapsed time: 0:05:01
+# Errors: 0, Warnings: 2
+vsim -gui work.D_Flip_Flop_TB_P7
+# vsim -gui work.D_Flip_Flop_TB_P7 
+# Start time: 22:08:55 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.D_Flip_Flop_TB_P7
+# Loading work.D_Flip_Flop_Reset_P7
+# Loading work.Clocked_Dlatch_With_Delay_P2
+add wave -position end sim:/D_Flip_Flop_TB_P7/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D_Flip_Flop.sv(42)
+#    Time: 10600 ns  Iteration: 0  Instance: /D_Flip_Flop_TB_P7
+# Break in Module D_Flip_Flop_TB_P7 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D_Flip_Flop.sv line 42
+quit -sim
+# Compile of D-latch.sv was successful.
+# Compile of Dlatch_TB.sv was successful.
+# Compile of Shift_Register.sv was successful.
+# Compile of Shift_Register_TB.sv was successful.
+# Compile of D_Flip_Flop.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.D_Flip_Flop_TB_P7
+# End time: 22:11:39 on Dec 09,2020, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 2
+# vsim -gui work.D_Flip_Flop_TB_P7 
+# Start time: 22:11:40 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.D_Flip_Flop_TB_P7
+# Loading work.D_Flip_Flop_Reset_P7
+# Loading work.Clocked_Dlatch_With_Delay_P2
+add wave -position end sim:/D_Flip_Flop_TB_P7/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D_Flip_Flop.sv(42)
+#    Time: 10610 ns  Iteration: 0  Instance: /D_Flip_Flop_TB_P7
+# Break in Module D_Flip_Flop_TB_P7 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D_Flip_Flop.sv line 42
+quit -sim
+# Compile of D-latch.sv was successful.
+# Compile of Dlatch_TB.sv was successful.
+# Compile of Shift_Register.sv was successful.
+# Compile of Shift_Register_TB.sv was successful.
+# Compile of D_Flip_Flop.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.D_Flip_Flop_TB_P7
+# End time: 22:13:02 on Dec 09,2020, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 2
+# vsim -gui work.D_Flip_Flop_TB_P7 
+# Start time: 22:13:02 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.D_Flip_Flop_TB_P7
+# Loading work.D_Flip_Flop_Reset_P7
+# Loading work.Clocked_Dlatch_With_Delay_P2
+add wave -position end sim:/D_Flip_Flop_TB_P7/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D_Flip_Flop.sv(46)
+#    Time: 11010 ns  Iteration: 0  Instance: /D_Flip_Flop_TB_P7
+# Break in Module D_Flip_Flop_TB_P7 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D_Flip_Flop.sv line 46
+# End time: 22:13:35 on Dec 09,2020, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 1

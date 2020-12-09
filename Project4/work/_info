@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,107 @@ z2
 !i10f 100
 cModel Technology
 dD:/Files/University/Term 3/Madar Manteghi/Projects/Project3
+vClocked_Dlatch
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1607506992
+!i10b 1
+!s100 g67lM7PnC7L[^G=8`oOF<1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IW<QlH=[1<:7TFWGIK@?0U2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dD:/Files/University/Term 3/Madar Manteghi/Projects/Project4
+w1607506982
+Z4 8D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D-latch.sv
+Z5 FD:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D-latch.sv
+!i122 0
+Z6 L0 3 8
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1607506991.000000
+Z8 !s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D-latch.sv|
+Z9 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/D-latch.sv|
+!i113 1
+Z10 o-work work -sv
+Z11 tCvgOpt 0
+n@clocked_@dlatch
+vClocked_Dlatch_P1
+R0
+Z12 !s110 1607512001
+!i10b 1
+!s100 SDEz9ZRIL2mdg8XdAeB2K0
+R1
+IfjWgh^2iOcj:RO7WSczMN0
+R2
+S1
+R3
+Z13 w1607507757
+R4
+R5
+!i122 22
+R6
+R7
+r1
+!s85 0
+31
+Z14 !s108 1607512001.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@clocked_@dlatch_@p1
+vClocked_Dlatch_With_Delay_P2
+R0
+R12
+!i10b 1
+!s100 iWZ>EMUfD^g[o2b0ee5k`1
+R1
+I<lIHMcFKP]X3ZhMkLLMdN0
+R2
+S1
+R3
+R13
+R4
+R5
+!i122 22
+L0 12 8
+R7
+r1
+!s85 0
+31
+R14
+R8
+R9
+!i113 1
+R10
+R11
+n@clocked_@dlatch_@with_@delay_@p2
+vClocked_Dlatch_With_Delay_TB_P3
+R0
+R12
+!i10b 1
+!s100 ma;[^@3?6QWDdmm_odR6M0
+R1
+I6oL2WZmh7hD5L[>D6gR532
+R2
+S1
+R3
+w1607511988
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv
+!i122 23
+L0 3 27
+R7
+r1
+!s85 0
+31
+R14
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv|
+!i113 1
+R10
+R11
+n@clocked_@dlatch_@with_@delay_@t@b_@p3

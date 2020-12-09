@@ -18,7 +18,7 @@ module Clocked_Dlatch_With_Delay_P2(input D, clk, output Q, Q_bar);
 	nand #8 n4(Q_bar, w2, Q);
 endmodule
 
-module Clocked_Dlatch_With_Delay_P2(input D, clk, rst, output Q, Q_bar);
+module Clocked_Dlatch_With_Delay_Reset_P4(input D, clk, rst, output Q, Q_bar);
 	wire w1, w2;
 
 	nand #8 n1(w1, D, clk, ~rst);

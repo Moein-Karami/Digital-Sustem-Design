@@ -37,7 +37,7 @@ Z11 tCvgOpt 0
 n@clocked_@dlatch
 vClocked_Dlatch_P1
 R0
-Z12 !s110 1607512001
+Z12 !s110 1607516210
 !i10b 1
 !s100 SDEz9ZRIL2mdg8XdAeB2K0
 R1
@@ -45,16 +45,16 @@ IfjWgh^2iOcj:RO7WSczMN0
 R2
 S1
 R3
-Z13 w1607507757
+Z13 w1607516202
 R4
 R5
-!i122 22
+!i122 26
 R6
 R7
 r1
 !s85 0
 31
-Z14 !s108 1607512001.000000
+Z14 !s108 1607516210.000000
 R8
 R9
 !i113 1
@@ -74,7 +74,7 @@ R3
 R13
 R4
 R5
-!i122 22
+!i122 26
 L0 12 8
 R7
 r1
@@ -87,29 +87,81 @@ R9
 R10
 R11
 n@clocked_@dlatch_@with_@delay_@p2
-vClocked_Dlatch_With_Delay_TB_P3
+vClocked_Dlatch_With_Delay_Reset_P4
 R0
 R12
 !i10b 1
-!s100 ma;[^@3?6QWDdmm_odR6M0
+!s100 T@h?9C=QK640;1M6DlzM=1
 R1
-I6oL2WZmh7hD5L[>D6gR532
+IeQJZeXMJ9gd2eN2iLE]0^3
 R2
 S1
 R3
-w1607511988
-8D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv
-FD:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv
-!i122 23
-L0 3 27
+R13
+R4
+R5
+!i122 26
+L0 21 8
 R7
 r1
 !s85 0
 31
 R14
+R8
+R9
+!i113 1
+R10
+R11
+n@clocked_@dlatch_@with_@delay_@reset_@p4
+vClocked_Dlatch_With_Delay_TB_P3
+R0
+!s110 1607516211
+!i10b 1
+!s100 h[`Q[AZY6CFg>IlMA8=Bm3
+R1
+IeS0I[_@T93lcW;8Gl:V@@3
+R2
+S1
+R3
+w1607516119
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv
+!i122 27
+L0 3 30
+R7
+r1
+!s85 0
+31
+!s108 1607516211.000000
 !s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv|
 !i113 1
 R10
 R11
 n@clocked_@dlatch_@with_@delay_@t@b_@p3
+vShigt_Register_P5
+R0
+!s110 1607521262
+!i10b 1
+!s100 A<VAeE9jk<b>NCac_Vf_^1
+R1
+IVWU;jlBXoZn5Pdgc7Tj`=2
+R2
+S1
+R3
+w1607521257
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv
+!i122 28
+L0 3 12
+R7
+r1
+!s85 0
+31
+!s108 1607521262.000000
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Shift_Register.sv|
+!i113 1
+R10
+R11
+n@shigt_@register_@p5

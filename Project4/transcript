@@ -131,3 +131,46 @@ run -all
 # ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv(27)
 #    Time: 1125 ns  Iteration: 0  Instance: /Clocked_Dlatch_With_Delay_TB_P3
 # Break in Module Clocked_Dlatch_With_Delay_TB_P3 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv line 27
+quit -sim
+# End time: 15:37:12 on Dec 09,2020, Elapsed time: 1:00:25
+# Errors: 0, Warnings: 2
+# Compile of D-latch.sv was successful with warnings.
+# Compile of Dlatch_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.Clocked_Dlatch_With_Delay_TB_P3
+# vsim -gui work.Clocked_Dlatch_With_Delay_TB_P3 
+# Start time: 15:45:30 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.Clocked_Dlatch_With_Delay_TB_P3
+# Loading work.Clocked_Dlatch_With_Delay_P2
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'Dlatch'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /Clocked_Dlatch_With_Delay_TB_P3/Dlatch File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv Line: 6
+# ** Warning: (vsim-3722) D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv(6): [TFMPC] - Missing connection for port 'rst'.
+add wave -position end sim:/Clocked_Dlatch_With_Delay_TB_P3/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv(30)
+#    Time: 1185 ns  Iteration: 0  Instance: /Clocked_Dlatch_With_Delay_TB_P3
+# Break in Module Clocked_Dlatch_With_Delay_TB_P3 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv line 30
+quit -sim
+# Compile of D-latch.sv was successful.
+# Compile of Dlatch_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# End time: 15:46:51 on Dec 09,2020, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 5
+vsim -gui work.Clocked_Dlatch_With_Delay_TB_P3
+# vsim -gui work.Clocked_Dlatch_With_Delay_TB_P3 
+# Start time: 15:47:02 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.Clocked_Dlatch_With_Delay_TB_P3
+# Loading work.Clocked_Dlatch_With_Delay_P2
+add wave -position end sim:/Clocked_Dlatch_With_Delay_TB_P3/Dlatch/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv(30)
+#    Time: 1185 ns  Iteration: 0  Instance: /Clocked_Dlatch_With_Delay_TB_P3
+# Break in Module Clocked_Dlatch_With_Delay_TB_P3 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv line 30
+quit -sim
+# End time: 15:48:20 on Dec 09,2020, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 1
+# Compile of Shift_Register.sv failed with 1 errors.
+# Compile of Shift_Register.sv failed with 1 errors.
+# Compile of Shift_Register.sv was successful.

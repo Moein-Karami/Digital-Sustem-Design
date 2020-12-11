@@ -33,6 +33,15 @@ module Clocked_Dlatch_With_Delay_TB_P3();
 		clk = 0;
 		D = 0;
 		#200;
+		clk = 1;
+		D = 1;
+		#100;
+		D = 0;
+		# 100;
+		D = 1;
+		#100;
+		clk = 0;
+		D = 0;
 		$stop;
 	end
 endmodule

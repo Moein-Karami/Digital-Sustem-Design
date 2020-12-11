@@ -18,6 +18,16 @@ Top level modules:
 	Shift_Register_TB_P10
 	Final_Shift_Register_TB_P10
 
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Register.sv} {1 {vlog -work work -sv -stats=none {D:\Files\University\Term 3\Madar Manteghi\Projects\Project4\Register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register_P8
+-- Compiling module Register_P10
+-- Compiling module Register_TB_P8
+
+Top level modules:
+	Register_P10
+	Register_TB_P8
+
 } {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project4/Dlatch_TB.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Clocked_Dlatch_With_Delay_TB_P3

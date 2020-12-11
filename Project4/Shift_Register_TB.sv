@@ -57,14 +57,12 @@ module Shift_Register_TB_P10();
 	Shift_Register_P10 shift_register(.sIn(sIn), .clk(clk), .rst(rst), .sOut(sOut));
 
 	always #600 clk = ~clk;
-	always #1205 sIn = $random();
+	always #1215 sIn = $random();
 
 	initial begin
 		clk = 1;
 		sIn = $random();
 		rst = 0;
-		#100;
-		clk = 0;
 		#20000;
 		rst = 1;
 		#2000;
@@ -85,11 +83,12 @@ module Final_Shift_Register_TB_P10();
 	Shift_Register_P8 shift_register8(.sIn(sIn), .clk(clk), .rst(rst), .sOut(sOut2));
 
 	always #1 know++;
-	always #600 if (know < 30000) clk = ~clk;
+	always #600 if (know < 45000) clk = ~clk;
 	always #1205 if (know < 30000) sIn = $random();
+
 	always #1200
 	begin
-		if (know >= 30000)
+		if (know >= 43000 && know <= 70000)
 		begin
 			clk = 1;
 			sIn = 1;
@@ -100,13 +99,26 @@ module Final_Shift_Register_TB_P10();
 			#600;
 		end
 	end
+
+	always #1200
+	begin
+		if (know >= 70000)
+		begin
+			clk = 1;
+			sIn = 0;
+			#590;
+			sIn = 1;
+			#10;
+			clk = 0;
+			#600;
+		end
+	end
+
 	initial begin
 		know = 0;
 		clk = 1;
 		sIn = $random();
 		rst = 0;
-		#100;
-		clk = 0;
 		#20000;
 		rst = 1;
 		#2000;
@@ -115,16 +127,12 @@ module Final_Shift_Register_TB_P10();
 		rst = 1;
 		#4000;
 		rst = 0;
-		// clk = 1;
-		// #D = 1;
-		// #590;
-		// D = 0;
-		// # 10;
-		// clk = 0;
-		// #600;
-		// clk = 1;
-		// D = 1;
-		#30000;
+		sIn = 1;
+		#10190;
+		rst = 1;
+		#3000;
+		rst = 0;
+		#70000;
 		$stop;
 	end
 endmodule

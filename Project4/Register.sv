@@ -10,6 +10,16 @@ module Register_P8(input clk, rst, [7 : 0]I, output [7 : 0]O);
 	endgenerate
 endmodule
 
+module Register_P10(input clk, rst, [7 : 0]I, output [7 : 0]O);
+	wire [7 : 0]ignore;
+
+	genvar i;
+	generate
+		for (i = 7; i >= 0; i--)
+			D_Flip_Flop_Reset_Always_P9 DD(.clk(clk), .rst(rst), .D(I[i]), .Q(O[i]), .Q_bar(ignore[i]));
+	endgenerate
+endmodule
+
 module Register_TB_P8();
 	logic rst, clk;
 	logic [7 : 0]D;

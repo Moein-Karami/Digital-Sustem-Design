@@ -53,6 +53,18 @@ module D_Flip_Flop_TB_P7();
 		#200;
 		clk = 0;
 		#200;
+		rst = 0;
+		D = 1;
+		clk = 1;
+		#200;
+		clk = 0;
+		#200;
+		clk = 1;
+		#8;
+		D = 0;
+		#200;
+		clk = 0;
+		#200;
 		$stop;
 	end
 endmodule

@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files/University/Term 3/Madar Manteghi/Projects/Project4
+vhard_block
+Z0 !s110 1608837081
+!i10b 1
+!s100 ;?azKD7`3YTk`WdFc43AT0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IIHa_aXPi1RHX_J^Z[X]163
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration
+Z4 w1608836478
+Z5 8D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachine.svo
+Z6 FD:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachine.svo
+!i122 27
+L0 302 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1608837081.000000
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachine.svo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachine.svo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vMooreMachine
+R0
+!i10b 1
+!s100 >IiH2dLO3Hj0_<kc^F9F?3
+R1
+I1kD1:><BANU4oLzLZ]:dI3
+R2
+R3
+R4
+R5
+R6
+!i122 27
+L0 32 269
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachine.svo|
+R9
+!i113 1
+R10
+R11
+n@moore@machine
+vMooreMachine1011
+Z13 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+!i10b 1
+!s100 S2I6h<T8;Chl]lkSl;ij;3
+R1
+IXPz`KT_<4hLlG6@cUoKm90
+R2
+S1
+R3
+w1608824674
+Z14 8D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachine.sv
+Z15 FD:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachine.sv
+!i122 25
+Z16 L0 3 26
+R7
+r1
+!s85 0
+31
+R8
+Z17 !s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachine.sv|
+Z18 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachine.sv|
+!i113 1
+Z19 o-work work -sv
+R11
+n@moore@machine1011
+vMooreMachine1011_P2
+R13
+!s110 1608813623
+!i10b 1
+!s100 lb?g_WSPLea2j5m]UTRRM3
+R1
+IAX<3k5[J;APbcUoJU4EGC3
+R2
+S1
+R3
+w1608811807
+R14
+R15
+!i122 11
+R16
+R7
+r1
+!s85 0
+31
+!s108 1608813623.000000
+R17
+R18
+!i113 1
+R19
+R11
+n@moore@machine1011_@p2
+vMooreMachine1011TB_P2
+R13
+R0
+!i10b 1
+!s100 dIM`2EQ:k]B74:Tn>BXRg0
+R1
+Il;z65F`N7G8N@XoeJXlg20
+R2
+S1
+R3
+w1608837071
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachineTB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachineTB.sv
+!i122 26
+L0 3 44
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachineTB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachineTB.sv|
+!i113 1
+R19
+R11
+n@moore@machine1011@t@b_@p2

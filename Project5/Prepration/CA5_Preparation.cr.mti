@@ -1,0 +1,23 @@
+{D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachine.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachine.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MooreMachine1011
+
+Top level modules:
+	MooreMachine1011
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachineTB.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachineTB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MooreMachine1011TB_P2
+
+Top level modules:
+	MooreMachine1011TB_P2
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachine.svo} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration/MooreMachine.svo}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MooreMachine
+-- Compiling module hard_block
+
+Top level modules:
+	MooreMachine
+
+} {} {}}

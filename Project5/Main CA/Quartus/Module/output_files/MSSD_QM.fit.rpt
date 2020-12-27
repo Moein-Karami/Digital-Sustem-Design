@@ -1,5 +1,5 @@
 Fitter report for MSSD_QM
-Sun Dec 27 00:42:02 2020
+Sun Dec 27 04:15:57 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -66,7 +66,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Sun Dec 27 00:42:02 2020       ;
+; Fitter Status                      ; Successful - Sun Dec 27 04:15:57 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; MSSD_QM                                     ;
 ; Top-level Entity Name              ; MSSD_QM                                     ;
@@ -164,7 +164,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.7%      ;
+;     Processor 2            ;   0.6%      ;
 +----------------------------+-------------+
 
 
@@ -980,7 +980,7 @@ Info (176215): I/O bank details before I/O pin placement
         Info (176213): I/O bank number 8A does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  2 pins available
         Info (176213): I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  5 pins available
         Info (176213): I/O bank number 9 does not use VREF pins and has undetermined VCCIO pins. 4 total pin(s) used --  0 pins available
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -1005,7 +1005,7 @@ Warning (169177): 2 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2
 Info (144001): Generated suppressed messages file D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Quartus/Module/output_files/MSSD_QM.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
     Info: Peak virtual memory: 5325 megabytes
-    Info: Processing ended: Sun Dec 27 00:42:02 2020
+    Info: Processing ended: Sun Dec 27 04:15:58 2020
     Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:07
 

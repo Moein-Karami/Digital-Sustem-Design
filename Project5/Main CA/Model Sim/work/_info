@@ -1,0 +1,292 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Prepration
+vDecoder_MS
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1609027471
+!i10b 1
+!s100 onl2RO<2e@O`lG2Tbg5EQ2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[L7BZc^BdLB_JRJ[`[mgh0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim
+Z5 w1609013539
+Z6 8D:\Files\University\Term 3\Madar Manteghi\Projects\Project5\Main CA\Model Sim\MSSD_MS.sv
+Z7 FD:\Files\University\Term 3\Madar Manteghi\Projects\Project5\Main CA\Model Sim\MSSD_MS.sv
+!i122 138
+L0 122 14
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1609027471.000000
+Z10 !s107 D:\Files\University\Term 3\Madar Manteghi\Projects\Project5\Main CA\Model Sim\MSSD_MS.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Files\University\Term 3\Madar Manteghi\Projects\Project5\Main CA\Model Sim\MSSD_MS.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@decoder_@m@s
+vFixer_MS
+R0
+R1
+!i10b 1
+!s100 I>2_<SN^NJA1GccmQ<g`?0
+R2
+IL1WJSO8amoORGW@ThR8Pb0
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 138
+L0 102 4
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@fixer_@m@s
+vhard_block
+R1
+!i10b 1
+!s100 ;XKlS0?<LRWPX;8J=]^L@3
+R2
+IFGz4^e[9bD_2cLhzI6bfP0
+R3
+R4
+Z14 w1609014992
+Z15 8D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_QC.svo
+Z16 FD:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_QC.svo
+!i122 140
+L0 1532 34
+R8
+r1
+!s85 0
+31
+R9
+Z17 !s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_QC.svo|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_QC.svo|
+!i113 1
+Z19 o-work work
+R13
+vMSSD_MS
+R0
+R1
+!i10b 1
+!s100 CbWDTEnkeENe[6@2o9HI20
+R2
+Ijl87^^ej1YnL9MGfiUFA=1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 138
+L0 3 27
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@m@s@s@d_@m@s
+vMSSD_QC
+R1
+!i10b 1
+!s100 3n9CmoWJbTZZjJ0f7YYkn0
+R2
+I_=Em?C>6:l88V:Ej_j<L]1
+R3
+R4
+R14
+R15
+R16
+!i122 140
+L0 32 1499
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 1
+R19
+R13
+n@m@s@s@d_@q@c
+vShiftRegister_MS
+R0
+R1
+!i10b 1
+!s100 Ukcl1IRZ;ld3i1z;b0H=h1
+R2
+ITHAZW1f[zFQP]?jZVI:aI3
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 138
+L0 92 9
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@shift@register_@m@s
+vStateMachine_MS
+R0
+R1
+!i10b 1
+!s100 `T8Rff]DhjU=dfROS=_623
+R2
+IR:JI`M3[ZZR78NTZHbGW=1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 138
+L0 31 45
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@state@machine_@m@s
+vTB_P2
+R0
+R1
+!i10b 1
+!s100 :zMSN]VjAb_^PjH262l=E3
+R2
+IhPc`oL:IMkY9^LgK[bdFJ1
+R3
+S1
+R4
+w1609010218
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_P2.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_P2.sv
+!i122 139
+L0 3 59
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_P2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_P2.sv|
+!i113 1
+R12
+R13
+n@t@b_@p2
+vTB_QC_P6
+R0
+R1
+!i10b 1
+!s100 ZzCf0=X1F56b_EzAYY3jf2
+R2
+IN?BgzI9]PjM;RaPen2mIY0
+R3
+S1
+R4
+w1609015848
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_QC_P6.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_QC_P6.sv
+!i122 141
+L0 4 67
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_QC_P6.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_QC_P6.sv|
+!i113 1
+R12
+R13
+n@t@b_@q@c_@p6
+vUpCounter3Bit_MS
+R0
+R1
+!i10b 1
+!s100 58]_67>UzEU79na^D=9PM2
+R2
+I_26ah[PNZ_^9OzCRO@cJI0
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 138
+L0 77 14
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@up@counter3@bit_@m@s
+vUpCounter9Bit_MS
+R0
+R1
+!i10b 1
+!s100 gn2jo6e7><5Geh3i<1[J@1
+R2
+I4O_8>8jCeP6NmPdJFRC0b1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 138
+L0 107 14
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@up@counter9@bit_@m@s

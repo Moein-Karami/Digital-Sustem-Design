@@ -1,3 +1,57 @@
-# Reading pref.tcl
-# OpenFile {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD.mpf}
-# Loading project MSSD
+vsim -gui work.TB_P2
+# vsim -gui work.TB_P2 
+# Start time: 21:05:53 on Dec 27,2020
+# Loading sv_std.std
+# Loading work.TB_P2
+# Loading work.MSSD_MS
+# Loading work.StateMachine_MS
+# Loading work.UpCounter3Bit_MS
+# Loading work.ShiftRegister_MS
+# Loading work.Fixer_MS
+# Loading work.UpCounter9Bit_MS
+# Loading work.Decoder_MS
+add wave -position end sim:/TB_P2/*
+run -all
+#       17309 tests complited without any error
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_P2.sv(50)
+#    Time: 3461750 ns  Iteration: 0  Instance: /TB_P2
+# Break in Module TB_P2 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_P2.sv line 50
+quit -sim
+# End time: 21:11:45 on Dec 27,2020, Elapsed time: 0:05:52
+# Errors: 0, Warnings: 1
+vsim -gui work.TB_QC_P6 -L altera_ver -L cycloneiv_ver -sdftyp {/mssd_qc=D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_QC_v.sdo}
+# vsim -gui work.TB_QC_P6 -L altera_ver -L cycloneiv_ver -sdftyp "/mssd_qc=D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_QC_v.sdo" 
+# Start time: 21:12:20 on Dec 27,2020
+# Loading sv_std.std
+# Loading work.TB_QC_P6
+# Loading work.MSSD_MS
+# Loading work.StateMachine_MS
+# Loading work.UpCounter3Bit_MS
+# Loading work.ShiftRegister_MS
+# Loading work.Fixer_MS
+# Loading work.UpCounter9Bit_MS
+# Loading work.Decoder_MS
+# Loading work.MSSD_QC
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_QC_v.sdo
+# Loading instances from MSSD_QC_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_QC_v.sdo
+# Loading timing data from MSSD_QC_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_QC_P6 File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_QC_P6.sv
+add wave -position end sim:/TB_QC_P6/*
+run -all
+#       17309 tests complited without any error
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_QC_P6.sv(59)
+#    Time: 3461750 ns  Iteration: 0  Instance: /TB_QC_P6
+# Break in Module TB_QC_P6 at D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_QC_P6.sv line 59
+# End time: 21:28:22 on Dec 27,2020, Elapsed time: 0:16:02
+# Errors: 0, Warnings: 1

@@ -1,4 +1,12 @@
-{D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_MS_NoDelay.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_MS_NoDelay.sv}
+{D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_QC.svo} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_QC.svo}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MSSD_QC
+-- Compiling module hard_block
+
+Top level modules:
+	MSSD_QC
+
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_MS_NoDelay.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_MS_NoDelay.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module MSSD_MS_NoDelay
 -- Compiling module StateMachine_MS_NoDelay
@@ -11,13 +19,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	MSSD_MS_NoDelay
 
-} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_QC.svo} {1 {vlog -work work -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_QC.svo}
+} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_QC_P6.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_QC_P6.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module MSSD_QC
--- Compiling module hard_block
+-- Compiling module TB_QC_P6
 
 Top level modules:
-	MSSD_QC
+	TB_QC_P6
 
 } {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_MS.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/MSSD_MS.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -31,13 +38,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	MSSD_MS
-
-} {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_QC_P6.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_QC_P6.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module TB_QC_P6
-
-Top level modules:
-	TB_QC_P6
 
 } {} {}} {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_P2.sv} {1 {vlog -work work -sv -stats=none {D:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim/TB_P2.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

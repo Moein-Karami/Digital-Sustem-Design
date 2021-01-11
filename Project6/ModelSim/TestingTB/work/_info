@@ -1,0 +1,399 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB
+vAdder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1610317726
+!i10b 1
+!s100 4Ldhf^WkHTB;SfYUZjia^1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IfAKK4V2LBH@[[4A@g]6cH0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB
+Z5 w1610313673
+Z6 8D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/DataPath.sv
+Z7 FD:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/DataPath.sv
+!i122 97
+L0 122 3
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1610317726.000000
+Z10 !s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/DataPath.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/DataPath.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@adder
+vCmp
+R0
+R1
+!i10b 1
+!s100 OOO]X@zk1<Z8F[VKlkDA=1
+R2
+Ih<Jo@;UZgE?]I2<SLU]Io0
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 97
+L0 109 3
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@cmp
+vControler
+R0
+R1
+!i10b 1
+!s100 <X[UiH?DMU<Z>Y8G:N>@d2
+R2
+IR0ziRaWING:n8>?H]Wc[72
+R3
+S1
+R4
+w1610235127
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Controler.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Controler.sv
+!i122 95
+L0 1 49
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Controler.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Controler.sv|
+!i113 1
+R12
+R13
+n@controler
+vCosinus
+R0
+R1
+!i10b 1
+!s100 PA37ihV9RcH9l]ok;5bL;0
+R2
+IM5G0d=J>;=DJe=n3H7SG11
+R3
+S1
+R4
+w1610297903
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Cosinus.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Cosinus.sv
+!i122 96
+L0 1 14
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Cosinus.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Cosinus.sv|
+!i113 1
+R12
+R13
+n@cosinus
+vCounter
+R0
+R1
+!i10b 1
+!s100 ie][me@3LRBU0ZK30MS:Q1
+R2
+IDO5FY_^`5IoL>1c4C1nX^1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 97
+L0 45 21
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@counter
+vDataPath
+R0
+R1
+!i10b 1
+!s100 aAHRJ^kPVdSGdbPdMK7EX2
+R2
+IlLmSd:G<ZZLJXcB5fYRkE1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 97
+L0 1 26
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@data@path
+vInverter
+R0
+R1
+!i10b 1
+!s100 dG_WZlaM73:EYkdC^NM=V3
+R2
+Ii;Z19BlB73mUY`zNhL[2o1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 97
+L0 113 8
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@inverter
+vMult
+R0
+R1
+!i10b 1
+!s100 4M>UGaZabLa`jSeJY^Hkj2
+R2
+I86Habd:e?HX0fSfoT;iDH3
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 97
+L0 67 5
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@mult
+vMux
+R0
+R1
+!i10b 1
+!s100 Vc=aFed2?mU@HC?kJ4MHb2
+R2
+IhCA<:MNC0PBzILK[LD]2M2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 97
+L0 98 10
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@mux
+vMyData
+R0
+R1
+!i10b 1
+!s100 cV@VCEA508N7nFDeRADeF2
+R2
+IfM`@NP3Cn5W8f9PhX;P2Q2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 97
+L0 28 7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@my@data
+vMyRom
+R0
+R1
+!i10b 1
+!s100 :?1;;<2Y_>iH5Y4J4m=?81
+R2
+I6=8==9aV9d1A^ohm[ol>`0
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 97
+L0 36 8
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@my@rom
+vReg
+R0
+R1
+!i10b 1
+!s100 @Y<f1zW0mhl_QCbH8GCca1
+R2
+In84o>RAJlJ^ghJHFo:[<l3
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 97
+L0 73 9
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@reg
+vRegWithInit1
+R0
+R1
+!i10b 1
+!s100 fNzC=jahQ2:XZ:j_LXLec2
+R2
+IXa3hF[F74aD8^hMSeTVY90
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 97
+L0 83 14
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@reg@with@init1
+vRom
+Z14 !s110 1610317727
+!i10b 1
+!s100 LTK`9JWH492`OC@E?5J0;1
+R2
+IEDdkV[eJJ4WWdaVO0A<g21
+R3
+R4
+w1610289668
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Rom_bb.v
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Rom_bb.v
+!i122 100
+L0 35 17
+R8
+r1
+!s85 0
+31
+Z15 !s108 1610317727.000000
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Rom_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Rom_bb.v|
+!i113 1
+o-work work
+R13
+n@rom
+vTestingTB
+R0
+R14
+!i10b 1
+!s100 1D0RRWc?fU0`Wc>z[E>LZ3
+R2
+Imkz>_6@d:FlS00Jg0CF6n1
+R3
+S1
+R4
+w1610317721
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv
+!i122 99
+L0 3 34
+R8
+r1
+!s85 0
+31
+R15
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv|
+!i113 1
+R12
+R13
+n@testing@t@b

@@ -1,0 +1,63 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files/University/Term 3/Madar Manteghi/Projects/Project5/Main CA/Model Sim
+vControler
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1610235131
+!i10b 1
+!s100 <X[UiH?DMU<Z>Y8G:N>@d2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IGgF`hgz^7QoEXlKfGBV>S3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim
+w1610235127
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler.sv
+!i122 20
+L0 1 49
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1610235131.000000
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+n@controler
+vControler_TB
+R0
+R1
+!i10b 1
+!s100 =m`]eW57^<[9NeTlzT7WP0
+R2
+Ia;M;o3R`DU_SUXJ4]G:Ai1
+R3
+S1
+R4
+w1610232226
+8D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv
+FD:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv
+!i122 21
+L0 3 59
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv|
+!i113 1
+R7
+R8
+n@controler_@t@b

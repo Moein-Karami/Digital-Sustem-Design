@@ -1,0 +1,526 @@
+# Reading pref.tcl
+# OpenFile {D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/FirstTB.mpf}
+# Loading project FirstTB
+# Compile of Controler.sv was successful.
+# Compile of Cosinus.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Rom.v was successful.
+# Compile of Rom_bb.v was successful.
+# Compile of TestingTB.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of Controler.sv was successful.
+# Compile of Cosinus.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Rom.v was successful.
+# Compile of Rom_bb.v was successful.
+# Compile of TestingTB.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.TestingTB
+# vsim -gui work.TestingTB 
+# Start time: 23:09:49 on Jan 10,2021
+# Loading sv_std.std
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# Loading work.Rom
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+# Loading work.Adder
+add wave -position end sim:/TestingTB/cosinus/data_path/my_data/rom/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: C  Hostname: DESKTOP-N4QJPKJ  ProcessID: 572
+#           Attempting to use alternate WLF file "./wlftib0j1j".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftib0j1j
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(28)
+#    Time: 10400 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 28
+quit -sim
+# End time: 23:12:34 on Jan 10,2021, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 5
+vsim work.Rom
+# vsim work.Rom 
+# Start time: 23:12:37 on Jan 10,2021
+# Loading work.Rom
+quit -sim
+# End time: 23:12:54 on Jan 10,2021, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 1
+# Compile of Controler.sv was successful.
+# Compile of Cosinus.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Rom.v was successful.
+# Compile of TestingTB.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.TestingTB
+# vsim work.TestingTB 
+# Start time: 23:13:21 on Jan 10,2021
+# Loading sv_std.std
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# Loading work.Rom
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TestingTB/cosinus/data_path/my_data/rom File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Rom.v Line: 59
+#         Searched libraries:
+#             D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/work
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+# Loading work.Adder
+# Error loading design
+# End time: 23:13:22 on Jan 10,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+vsim work.TestingTB -L altera_ver -L cycloneiv_ver
+# vsim work.TestingTB -L altera_ver -L cycloneiv_ver 
+# Start time: 23:14:14 on Jan 10,2021
+# Loading sv_std.std
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# Loading work.Rom
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TestingTB/cosinus/data_path/my_data/rom File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Rom.v Line: 59
+#         Searched libraries:
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneiv
+#             D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/work
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+# Loading work.Adder
+# Error loading design
+# End time: 23:14:14 on Jan 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim -L altera_ver -L cycloneiv_ver work.TestingTB
+# vsim -L altera_ver -L cycloneiv_ver work.TestingTB 
+# Start time: 23:14:48 on Jan 10,2021
+# Loading sv_std.std
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# Loading work.Rom
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TestingTB/cosinus/data_path/my_data/rom File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/Rom.v Line: 59
+#         Searched libraries:
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneiv
+#             D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/work
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+# Loading work.Adder
+# Error loading design
+# End time: 23:14:49 on Jan 10,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of Controler.sv was successful.
+# Compile of Cosinus.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Rom.v was successful.
+# Compile of TestingTB.sv was successful.
+# Compile of Rom_bb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -L altera_ver -L cycloneiv_ver work.TestingTB
+# vsim -L altera_ver -L cycloneiv_ver work.TestingTB 
+# Start time: 23:16:15 on Jan 10,2021
+# Loading sv_std.std
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# Loading work.Rom
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+# Loading work.Adder
+# Compile of Controler.sv was successful.
+# Compile of Cosinus.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Rom.v was successful.
+# Compile of TestingTB.sv was successful.
+# Compile of Rom_bb.v was successful.
+# 6 compiles, 0 failed with no errors.
+quit -sim
+vsim -L altera_ver -L cycloneiv_ver work.TestingTB
+# End time: 00:06:28 on Jan 11,2021, Elapsed time: 0:50:13
+# Errors: 0, Warnings: 4
+# vsim -L altera_ver -L cycloneiv_ver work.TestingTB 
+# Start time: 00:06:29 on Jan 11,2021
+# Loading sv_std.std
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# ** Error: (vsim-3033) Instantiation of 'MyRom' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TestingTB/cosinus/data_path/my_data File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/DataPath.sv Line: 32
+#         Searched libraries:
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneiv
+#             D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/work
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+# Loading work.Adder
+# Error loading design
+# End time: 00:06:29 on Jan 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of Controler.sv was successful.
+# Compile of Cosinus.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Rom.v was successful.
+# Compile of TestingTB.sv was successful.
+# Compile of Rom_bb.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Load canceled
+vsim -L altera_ver -L cycloneiv_ver work.TestingTB
+# vsim -L altera_ver -L cycloneiv_ver work.TestingTB 
+# Start time: 00:07:11 on Jan 11,2021
+# Loading sv_std.std
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# Loading work.MyRom
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+# Loading work.Adder
+add wave -position end sim:/TestingTB/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: C  Hostname: DESKTOP-N4QJPKJ  ProcessID: 572
+#           Attempting to use alternate WLF file "./wlft11kk9x".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft11kk9x
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(28)
+#    Time: 10400 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 28
+add wave -position end sim:/TestingTB/cosinus/data_path/my_data/rom/*
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+# checkArgs: WlfValueId for /TestingTB/cosinus/data_path/my_data/rom/address has no logfile info. (an=00000000, channel=1EB385B8)
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(28)
+#    Time: 10400 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 28
+add wave -position end sim:/TestingTB/cosinus/data_path/*
+restart -f
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(28)
+#    Time: 10400 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 28
+quit -sim
+# End time: 00:12:05 on Jan 11,2021, Elapsed time: 0:04:54
+# Errors: 0, Warnings: 1
+# Compile of Controler.sv was successful.
+# Compile of Cosinus.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Rom.v was successful.
+# Compile of TestingTB.sv was successful.
+# Compile of Rom_bb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -L altera_ver -L cycloneiv_ver work.TestingTB
+# vsim -L altera_ver -L cycloneiv_ver work.TestingTB 
+# Start time: 00:13:03 on Jan 11,2021
+# Loading sv_std.std
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# Loading work.MyRom
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+# Loading work.Adder
+add wave -position end sim:/TestingTB/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: C  Hostname: DESKTOP-N4QJPKJ  ProcessID: 572
+#           Attempting to use alternate WLF file "./wlftx53afj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftx53afj
+add wave -position end sim:/TestingTB/cosinus/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(28)
+#    Time: 10400 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 28
+add wave -position end sim:/TestingTB/cosinus/data_path/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(28)
+#    Time: 10400 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 28
+add wave -position end sim:/TestingTB/cosinus/data_path/mult1/*
+restart -f
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(28)
+#    Time: 10400 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 28
+# Compile of Controler.sv was successful.
+# Compile of Cosinus.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Rom.v was successful.
+# Compile of TestingTB.sv was successful.
+# Compile of Rom_bb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# Loading work.MyRom
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+# Loading work.Adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (8) for port 'b'. The port definition is at: D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/DataPath.sv(67).
+#    Time: 0 ps  Iteration: 0  Instance: /TestingTB/cosinus/data_path/mult1 File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/DataPath.sv Line: 17
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(28)
+#    Time: 10400 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 28
+# Compile of Controler.sv was successful.
+# Compile of Cosinus.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Rom.v was successful.
+# Compile of TestingTB.sv was successful.
+# Compile of Rom_bb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# Loading work.MyRom
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+# Loading work.Adder
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(28)
+#    Time: 10400 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 28
+add wave -position end sim:/TestingTB/cosinus/data_path/mult2/*
+restart -f
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(28)
+#    Time: 10400 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 28
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/TestingTB/cosinus/controler/ps
+restart -f
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(28)
+#    Time: 10400 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 28
+# Compile of Controler.sv was successful.
+# Compile of Cosinus.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Rom.v was successful.
+# Compile of TestingTB.sv was successful.
+# Compile of Rom_bb.v was successful.
+# 6 compiles, 0 failed with no errors.
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# Loading work.MyRom
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+restart -f
+# Loading work.Adder
+restart -f
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(28)
+#    Time: 10400 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 28
+# Compile of Controler.sv was successful.
+# Compile of Cosinus.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Rom.v was successful.
+# Compile of TestingTB.sv was successful.
+# Compile of Rom_bb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# Loading work.MyRom
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+# Loading work.Adder
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(28)
+#    Time: 10400 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 28
+quit -sim
+# End time: 01:57:22 on Jan 11,2021, Elapsed time: 1:44:19
+# Errors: 0, Warnings: 1
+vsim work.TestingTB
+# vsim work.TestingTB 
+# Start time: 01:57:29 on Jan 11,2021
+# Loading sv_std.std
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# Loading work.MyRom
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+# Loading work.Adder
+quit -sim
+# End time: 01:57:38 on Jan 11,2021, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 1
+# Compile of Controler.sv was successful.
+# Compile of Cosinus.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Rom.v was successful.
+# Compile of TestingTB.sv was successful.
+# Compile of Rom_bb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.TestingTB
+# vsim work.TestingTB 
+# Start time: 01:58:56 on Jan 11,2021
+# Loading sv_std.std
+# Loading work.TestingTB
+# Loading work.Cosinus
+# Loading work.Controler
+# Loading work.DataPath
+# Loading work.MyData
+# Loading work.Counter
+# Loading work.MyRom
+# Loading work.Mux
+# Loading work.Mult
+# Loading work.Reg
+# Loading work.Inverter
+# Loading work.Cmp
+# Loading work.RegWithInit1
+# Loading work.Adder
+add wave -position end sim:/TestingTB/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: C  Hostname: DESKTOP-N4QJPKJ  ProcessID: 572
+#           Attempting to use alternate WLF file "./wlftd3i8hz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftd3i8hz
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(34)
+#    Time: 10600 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 34
+add wave -position end sim:/TestingTB/cosinus/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(34)
+#    Time: 10600 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 34
+add wave -position end  sim:/TestingTB/cosinus/controler/ps
+restart -f
+run -all
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv(34)
+#    Time: 10600 ns  Iteration: 0  Instance: /TestingTB
+# Break in Module TestingTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/TestingTB/TestingTB.sv line 34
+add wave -position end sim:/TestingTB/cosinus/data_path/*
+# End time: 02:22:09 on Jan 11,2021, Elapsed time: 0:23:13
+# Errors: 0, Warnings: 1

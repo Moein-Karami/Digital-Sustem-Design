@@ -1,0 +1,199 @@
+# Compile of DataPath.sv failed with 3 errors.
+# Compile of DataPath.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Controler.sv was successful.
+# Compile of Controler_TB.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Controler.sv was successful.
+# Compile of Controler_TB.sv failed with 19 errors.
+# 2 compiles, 1 failed with 19 errors.
+# Compile of Controler.sv was successful.
+# Compile of Controler_TB.sv failed with 17 errors.
+# 2 compiles, 1 failed with 17 errors.
+# Compile of Controler.sv was successful.
+# Compile of Controler_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.Controler_TB
+# vsim -gui work.Controler_TB 
+# Start time: 02:01:19 on Jan 10,2021
+# Loading sv_std.std
+# Loading work.Controler_TB
+# Loading work.Controler
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$print' is not defined.
+#    Time: 0 ns  Iteration: 0  Instance: /Controler_TB File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv Line: 48
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$print' is not defined.
+#    Time: 0 ns  Iteration: 0  Instance: /Controler_TB File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv Line: 56
+add wave -position end sim:/Controler_TB/*
+run -all
+# ** Warning: ** UI-Msg: (vsim-8147) Cannot display or load '/Controler_TB/test_vectors' as this is an index in an associative array.
+#     : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(28)
+#    Time: 0 ns  Iteration: 0  Instance: /Controler_TB
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$print'
+#    Time: 100 ns  Iteration: 1  Process: /Controler_TB/#ALWAYS#41 File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv Line: 48
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(49)
+#    Time: 100 ns  Iteration: 1  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 49
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$print'
+#    Time: 300 ns  Iteration: 1  Process: /Controler_TB/#ALWAYS#41 File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv Line: 48
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(49)
+#    Time: 300 ns  Iteration: 1  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 49
+# Compile of Controler.sv was successful.
+# Compile of Controler_TB.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of Controler.sv was successful.
+# Compile of Controler_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Controler_TB
+# Loading work.Controler
+run -all
+# ** Warning: ** UI-Msg: (vsim-8147) Cannot display or load '/Controler_TB/test_vectors' as this is an index in an associative array.
+#     : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(28)
+#    Time: 0 ns  Iteration: 0  Instance: /Controler_TB
+# Wrong on test           0
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(49)
+#    Time: 100 ns  Iteration: 1  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 49
+# Compile of Controler.sv was successful.
+# Compile of Controler_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Controler_TB
+# Loading work.Controler
+run -all
+# ** Warning: ** UI-Msg: (vsim-8147) Cannot display or load '/Controler_TB/test_vectors' as this is an index in an associative array.
+#     : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(28)
+#    Time: 0 ns  Iteration: 0  Instance: /Controler_TB
+# Wrong on test           0
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(49)
+#    Time: 100 ns  Iteration: 1  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 49
+# Compile of Controler.sv was successful.
+# Compile of Controler_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Controler_TB
+# Loading work.Controler
+run -all
+# Wrong on test           0
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(49)
+#    Time: 100 ns  Iteration: 1  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 49
+# Compile of Controler.sv was successful.
+# Compile of Controler_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Controler_TB
+# Loading work.Controler
+run -all
+# Wrong on test           0
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(49)
+#    Time: 100 ns  Iteration: 1  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 49
+# Compile of Controler.sv was successful.
+# Compile of Controler_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Controler_TB
+# Loading work.Controler
+run -all
+# Wrong on test          13
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(50)
+#    Time: 2750 ns  Iteration: 0  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 50
+restart -f
+run -all
+# Wrong on test           2
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(50)
+#    Time: 550 ns  Iteration: 0  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 50
+restart -f
+run -all
+# Wrong on test           2
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(50)
+#    Time: 550 ns  Iteration: 0  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 50
+# Compile of Controler.sv was successful.
+# Compile of Controler_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Controler_TB
+# Loading work.Controler
+run -all
+# Wrong on test           2
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(50)
+#    Time: 550 ns  Iteration: 0  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 50
+run
+run
+# Wrong on test           3
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(50)
+#    Time: 750 ns  Iteration: 0  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 50
+restart -f
+run -all
+# Wrong on test           2
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(50)
+#    Time: 550 ns  Iteration: 0  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 50
+restart -f
+run -all
+# Wrong on test           2
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(50)
+#    Time: 550 ns  Iteration: 0  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 50
+# Compile of Controler.sv was successful.
+# Compile of Controler_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Controler_TB
+# Loading work.Controler
+run -all
+# Wrong on test           2
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(50)
+#    Time: 550 ns  Iteration: 0  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 50
+restart -f
+run -all
+# Wrong on test           2
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(50)
+#    Time: 550 ns  Iteration: 0  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 50
+restart -f
+run -all
+# Wrong on test           0
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(50)
+#    Time: 150 ns  Iteration: 0  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 50
+restart -f
+run -all
+# Wrong on test          10
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(50)
+#    Time: 2150 ns  Iteration: 0  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 50
+# Compile of Controler.sv was successful.
+# Compile of Controler_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Controler_TB
+# Loading work.Controler
+run -all
+# accepted on       10000 test
+# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv(58)
+#    Time: 1999950 ns  Iteration: 0  Instance: /Controler_TB
+# Break in Module Controler_TB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/Controler_TB.sv line 58
+quit -sim
+# End time: 03:02:34 on Jan 10,2021, Elapsed time: 1:01:15
+# Errors: 0, Warnings: 1

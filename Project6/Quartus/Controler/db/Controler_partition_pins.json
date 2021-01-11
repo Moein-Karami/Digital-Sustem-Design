@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ready",
+					"strict" : false
+				},
+				{
+					"name" : "cnt_en",
+					"strict" : false
+				},
+				{
+					"name" : "cnt_init0",
+					"strict" : false
+				},
+				{
+					"name" : "sel_rom",
+					"strict" : false
+				},
+				{
+					"name" : "sel_x",
+					"strict" : false
+				},
+				{
+					"name" : "reg_x_ld",
+					"strict" : false
+				},
+				{
+					"name" : "reg_y_ld",
+					"strict" : false
+				},
+				{
+					"name" : "reg_tmp_ld",
+					"strict" : false
+				},
+				{
+					"name" : "invert",
+					"strict" : false
+				},
+				{
+					"name" : "minus",
+					"strict" : false
+				},
+				{
+					"name" : "reg_res_ld",
+					"strict" : false
+				},
+				{
+					"name" : "reg_tmp_init1",
+					"strict" : false
+				},
+				{
+					"name" : "reg_res_init1",
+					"strict" : false
+				},
+				{
+					"name" : "parity",
+					"strict" : false
+				},
+				{
+					"name" : "stop_sign",
+					"strict" : false
+				},
+				{
+					"name" : "start",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Cosinus
-Mon Jan 11 04:20:11 2021
+Wed Jan 13 18:12:29 2021
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -60,7 +60,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Jan 11 04:20:11 2021       ;
+; Analysis & Synthesis Status        ; Successful - Wed Jan 13 18:12:29 2021       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; Cosinus                                     ;
 ; Top-level Entity Name              ; Cosinus                                     ;
@@ -203,7 +203,7 @@ https://fpgasoftware.intel.com/eula.
 ; altram.inc                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altram.inc                                         ;         ;
 ; altdpram.inc                     ; yes             ; Megafunction                           ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altdpram.inc                                       ;         ;
 ; db/altsyncram_g5a1.tdf           ; yes             ; Auto-Generated Megafunction            ; D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/Quartus/CompleteDesign/db/altsyncram_g5a1.tdf ;         ;
-; DataPath.hex                     ; yes             ; Auto-Found Memory Initialization File  ; D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/Quartus/CompleteDesign/DataPath.hex           ;         ;
+; datapath.hex                     ; yes             ; Auto-Found Memory Initialization File  ; D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/Quartus/CompleteDesign/datapath.hex           ;         ;
 ; lpm_mult.tdf                     ; yes             ; Megafunction                           ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mult.tdf                                       ;         ;
 ; lpm_add_sub.inc                  ; yes             ; Megafunction                           ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                    ;         ;
 ; multcore.inc                     ; yes             ; Megafunction                           ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/multcore.inc                                       ;         ;
@@ -884,7 +884,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -894,7 +894,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Mon Jan 11 04:19:50 2021
+    Info: Processing started: Wed Jan 13 18:11:52 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Cosinus -c Cosinus
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -1064,9 +1064,9 @@ Info (21057): Implemented 381 device resources after synthesis - the final resou
     Info (21061): Implemented 341 logic cells
     Info (21064): Implemented 8 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 17 warnings
-    Info: Peak virtual memory: 4823 megabytes
-    Info: Processing ended: Mon Jan 11 04:20:11 2021
-    Info: Elapsed time: 00:00:21
+    Info: Peak virtual memory: 4836 megabytes
+    Info: Processing ended: Wed Jan 13 18:12:29 2021
+    Info: Elapsed time: 00:00:37
     Info: Total CPU time (on all processors): 00:00:38
 
 

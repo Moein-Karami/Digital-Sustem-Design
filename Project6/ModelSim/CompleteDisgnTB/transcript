@@ -1,101 +1,9 @@
 # Reading pref.tcl
 # OpenFile {D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus.mpf}
 # Loading project Cosinus
-# Compile of Cosinus.svo was successful.
-# Compile of FinalTB.sv was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.FinalTB -L cycloneiv_ver -L altera_ver -sdftyp {/cosinus=D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo}
-# vsim -gui work.FinalTB -L cycloneiv_ver -L altera_ver -sdftyp "/cosinus=D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo" 
-# Start time: 02:30:58 on Jan 11,2021
-# Loading sv_std.std
-# Loading work.FinalTB
-# Loading work.Cosinus
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# Loading cycloneiv_ver.cycloneiv_ram_block
-# Loading cycloneiv_ver.cycloneiv_ram_register
-# Loading cycloneiv_ver.cycloneiv_ram_pulse_generator
-# SDF 2020.1 Compiler 2020.02 Feb 28 2020
-# 
-# Loading instances from D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo
-# Loading instances from Cosinus_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo
-# Loading timing data from Cosinus_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/FinalTB.sv
-add wave -position end sim:/FinalTB/*
-run -all
-# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/FinalTB.sv(34)
-#    Time: 10600 ns  Iteration: 0  Instance: /FinalTB
-# Break in Module FinalTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/FinalTB.sv line 34
-add wave -position end  sim:/FinalTB/cosinus/\data_path|my_data|rom|altsyncram_component|auto_generated|q_a 
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# SDF 2020.1 Compiler 2020.02 Feb 28 2020
-# 
-# Loading instances from D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo
-# Loading instances from Cosinus_v.sdo
-# Loading timing data from D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo
-# Loading timing data from Cosinus_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/FinalTB.sv
-run -all
-# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/FinalTB.sv(34)
-#    Time: 10600 ns  Iteration: 0  Instance: /FinalTB
-# Break in Module FinalTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/FinalTB.sv line 34
-quit -sim
-# End time: 04:21:41 on Jan 11,2021, Elapsed time: 1:50:43
-# Errors: 0, Warnings: 1
-# Compile of Cosinus.svo was successful.
-# Compile of FinalTB.sv was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp {/cosinus=D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo} work.FinalTB
-# vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp "/cosinus=D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo" work.FinalTB 
-# Start time: 04:22:00 on Jan 11,2021
-# Loading sv_std.std
-# Loading work.FinalTB
-# Loading work.Cosinus
-# Loading work.hard_block
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_clkctrl
-# Loading cycloneiv_ver.cycloneiv_mux41
-# Loading cycloneiv_ver.cycloneiv_ena_reg
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading altera_ver.dffeas
-# Loading cycloneiv_ver.cycloneiv_ram_block
-# Loading cycloneiv_ver.cycloneiv_ram_register
-# Loading cycloneiv_ver.cycloneiv_ram_pulse_generator
-# SDF 2020.1 Compiler 2020.02 Feb 28 2020
-# 
-# Loading instances from D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo
-# Loading instances from Cosinus_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo
-# Loading timing data from Cosinus_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/FinalTB.sv
-add wave -position end sim:/FinalTB/*
-run -all
-# ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/FinalTB.sv(34)
-#    Time: 10600 ns  Iteration: 0  Instance: /FinalTB
-# Break in Module FinalTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/FinalTB.sv line 34
-quit -sim
-# End time: 04:29:20 on Jan 11,2021, Elapsed time: 0:07:20
-# Errors: 0, Warnings: 2
-# Compile of Cosinus.svo was successful.
-# Compile of FinalTB.sv was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp {/cosinus=D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo} work.FinalTB
-# vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp "/cosinus=D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo" work.FinalTB 
-# Start time: 04:31:27 on Jan 11,2021
+vsim -gui work.FinalTB -L altera_ver -L cycloneiv_ver -sdftyp {/cosinus=D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo}
+# vsim -gui work.FinalTB -L altera_ver -L cycloneiv_ver -sdftyp "/cosinus=D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/Cosinus_v.sdo" 
+# Start time: 18:15:04 on Jan 13,2021
 # Loading sv_std.std
 # Loading work.FinalTB
 # Loading work.Cosinus
@@ -122,5 +30,5 @@ run -all
 # ** Note: $stop    : D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/FinalTB.sv(40)
 #    Time: 15800 ns  Iteration: 0  Instance: /FinalTB
 # Break in Module FinalTB at D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB/FinalTB.sv line 40
-# End time: 04:35:26 on Jan 11,2021, Elapsed time: 0:03:59
-# Errors: 0, Warnings: 2
+# End time: 18:15:50 on Jan 13,2021, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 1

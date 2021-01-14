@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Cosinus
-Mon Jan 11 04:20:34 2021
+Wed Jan 13 18:13:10 2021
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Jan 11 04:20:34 2021 ;
+; EDA Netlist Writer Status ; Successful - Wed Jan 13 18:13:10 2021 ;
 ; Revision Name             ; Cosinus                               ;
 ; Top-level Entity Name     ; Cosinus                               ;
 ; Family                    ; Cyclone IV GX                         ;
@@ -89,7 +89,7 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Mon Jan 11 04:20:31 2021
+    Info: Processing started: Wed Jan 13 18:13:08 2021
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off Cosinus -c Cosinus
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file Cosinus_6_1200mv_85c_slow.svo in folder "D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/Quartus/CompleteDesign/simulation/modelsim/" for EDA simulation tool
@@ -102,7 +102,7 @@ Info (204019): Generated file Cosinus_min_1200mv_0c_v_fast.sdo in folder "D:/Fil
 Info (204019): Generated file Cosinus_v.sdo in folder "D:/Files/University/Term 3/Madar Manteghi/Projects/Project6/Quartus/CompleteDesign/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4727 megabytes
-    Info: Processing ended: Mon Jan 11 04:20:34 2021
+    Info: Processing ended: Wed Jan 13 18:13:11 2021
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 

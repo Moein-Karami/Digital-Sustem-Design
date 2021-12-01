@@ -1,8 +1,0 @@
-
-State Machine - |MooreMachine|curr_state
-Name curr_state.011 curr_state.010 curr_state.001 curr_state.000 curr_state.100 
-curr_state.000 0 0 0 0 0 
-curr_state.001 0 0 1 1 0 
-curr_state.010 0 1 0 1 0 
-curr_state.011 1 0 0 1 0 
-curr_state.100 0 0 0 1 1 

@@ -1,1 +1,0 @@
-module Cosinus(input clk, rst, start, input [9 : 0]x, input [7 : 0]y, output ready, output [9 : 0]result);

@@ -1,8 +1,0 @@
-module DataPath(input [9 : 0]x, input [7 : 0]y, input clk, rst, cnt_en, cnt_init0, sel_rom, sel_x,
-		reg_x_ld, reg_y_ld, reg_tmp_ld, invert, minus, reg_res_ld, reg_tmp_init1, reg_res_init1,
-		output [9 : 0]result, output parity, stop_sign);
-		
-		
-		
-
-	

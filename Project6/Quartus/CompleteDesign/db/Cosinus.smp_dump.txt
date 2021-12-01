@@ -1,9 +1,0 @@
-
-State Machine - |Cosinus|Controler:controler|ps
-Name ps.Add ps.romMul ps.xMul ps.Loud ps.Init ps.Idle 
-ps.Idle 0 0 0 0 0 0 
-ps.Init 0 0 0 0 1 1 
-ps.Loud 0 0 0 1 0 1 
-ps.xMul 0 0 1 0 0 1 
-ps.romMul 0 1 0 0 0 1 
-ps.Add 1 0 0 0 0 1 

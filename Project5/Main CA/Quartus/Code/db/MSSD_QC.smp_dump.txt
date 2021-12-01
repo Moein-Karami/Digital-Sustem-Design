@@ -1,9 +1,0 @@
-
-State Machine - |MSSD_QC|StateMachine_QC:state_machine_qc|curr_state
-Name curr_state.get_first_data curr_state.error curr_state.finish curr_state.get_data curr_state.get_info curr_state.start 
-curr_state.start 0 0 0 0 0 0 
-curr_state.get_info 0 0 0 0 1 1 
-curr_state.get_data 0 0 0 1 0 1 
-curr_state.finish 0 0 1 0 0 1 
-curr_state.error 0 1 0 0 0 1 
-curr_state.get_first_data 1 0 0 0 0 1 
